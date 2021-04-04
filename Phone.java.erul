@@ -1,0 +1,33 @@
+
+public class Phone {
+	
+	   String brand;
+	   String colour;
+	   double weight;
+	   String resistance;
+	   String camera;
+	   String bluetooth;
+	   
+	   void printPhone(String b, String c, String w) {
+		   System.out.println("Phone brand :" + b);
+		   System.out.println("Phone colour :" + c);
+	       System.out.println("Phone weight :" + w + "kg");
+	      
+	   }
+	       
+	   void printResistance(String a) {
+		   System.out.println("Resistance :" + a);
+	   
+	   }
+	   
+	   void printCamera(String m) {
+		   System.out.println("Camera :" + m);
+		      
+	   }
+		   
+	   void printBluetooth(String p) {
+		   System.out.println("Bluetooth :" + p);
+		   
+	   }
+
+}
